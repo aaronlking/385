@@ -41,11 +41,7 @@ function App() {
     window.addEventListener('keydown', onKeyDown);
     window.addEventListener('mousedown', onMouseDown);
 
-    const gui = new GUI();
-    const folder = gui.addFolder("Rubik's Cube");
-    folder.add(r, 'epsilon', 0.5, 3.5, 0.5);
-    folder.add(r, 'consoleDebug');
-    folder.open();
+    
   }, []);
   return (
     <div>
