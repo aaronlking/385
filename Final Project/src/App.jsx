@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { GUI } from 'dat.gui';
+
 import * as THREE from 'three';
 
 import SceneInit from './lib/SceneInit';
