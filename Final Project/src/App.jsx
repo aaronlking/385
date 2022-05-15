@@ -41,12 +41,6 @@ function App() {
     window.addEventListener('keydown', onKeyDown);
     window.addEventListener('mousedown', onMouseDown);
 
-    // const planeGeometry = new THREE.PlaneGeometry(2, 2);
-    // const planeMaterial = new THREE.MeshPhongMaterial({ color: '#ff0000' });
-    // const planeMesh = new THREE.Mesh(planeGeometry, planeMaterial);
-    // planeMesh.position.z = -2;
-    // group.add(planeMesh);
-
     const gui = new GUI();
     const folder = gui.addFolder("Rubik's Cube");
     folder.add(r, 'epsilon', 0.5, 3.5, 0.5);
