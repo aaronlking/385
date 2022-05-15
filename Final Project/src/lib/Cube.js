@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-import { vertexShader, fragmentShader } from '../Shaders';
+import { vertexShader, fragmentShader } from '/Users/aaronking/Documents/GitHub/385/Final Project/src/lib/Shaders.js';
 
 export default class Cube {
   constructor(xOffset, yOffset, zOffset) {
