@@ -26,9 +26,9 @@ const vertexShader = () => {
       varying vec3 pos;
   
       void main() {
-          vec4 red = vec4(1.0, 0.0, 0.0, opacity);
-          vec4 white = vec4(1.0, 1.0, 1.0, opacity);
-          vec4 blue = vec4(0.0, 0.0, 1.0, opacity);
+          vec4 red = vec4(0.678,0.027,0.027, opacity);
+          vec4 white = vec4(1.,0.98,0.98, opacity);
+          vec4 blue = vec4(0.008,0.031,0.749, opacity);
           vec4 yellow = vec4(1.0, 1.0, 0.0, opacity);
           vec4 green = vec4(0.0, 1.0, 0.0, opacity);
           vec4 orange = vec4(1.0, 0.65, 0.0, opacity);

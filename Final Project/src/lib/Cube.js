@@ -32,8 +32,4 @@ export default class Cube {
     this.cubeGroup.position.z = zOffset;
   }
 
-  // highlight() {
-  //   this.cubeMesh.material.transparent = true;
-  //   this.cubeMesh.material.opacity = 0.5;
-  // }
 }
